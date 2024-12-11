@@ -7,10 +7,12 @@ import { FaCode } from "react-icons/fa6";
 import { FiCommand } from "react-icons/fi";
 import { MdCamera } from "react-icons/md";
 import { FaImage } from "react-icons/fa6";
+import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
   const[active, setActive] = useState(false)
   const dropDown = document.querySelector('#dropDown')
+  // const navRef = useRef(null)
   const homeRef = useRef(null)
   const aboutRef = useRef(null)
   const workRef = useRef(null)
@@ -42,7 +44,7 @@ function App() {
   }
   return (
     <div>
-      <section className='flex items-center w-full'>
+      <section className='flex items-center w-full fixed bg-white top-0 mb-10'>
         <div onClick={scrollToHome} className=' flex items-center justify-center p-2 w-52 mt-5 lg:ml-10'>
           <h1 className='text-3xl -ml-5 '>STEPKAT</h1>
         </div>
@@ -64,7 +66,7 @@ function App() {
           </ul>
         </div>
       </section>
-      <section ref={homeRef}>
+      <section  ref={homeRef} className='mt-20'>
         <div className='flex items-center justify-center mt-10 '>
           <img src={Steve} alt="Image not found" className='w-60 h-60 rounded-full border-9 border-black border-solid lg:w-72 lg:h-72'/>
         </div>
@@ -164,6 +166,9 @@ function App() {
           </div>
         </div>
       </section>
+      <div onClick={scrollToHome} className='bg-black text-white flex items-center justify-center w-14 h-14 fixed bottom-5 right-5 rounded-full'>
+        <IoIosArrowUp  className='text-3xl'/>
+      </div>
     </div>
   )
 }
