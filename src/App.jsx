@@ -129,7 +129,7 @@ function App() {
                 Check out my Github
                 <BsGithub className='text-2xl'/>
               </a>
-              <a  href='https://www.instagram.com/stories/_k.atana/' target='_blank'
+              <a  href='https://www.instagram.com/_k.atana/' target='_blank'
               className=' mt-5 text-xl flex items-center justify-center gap-3 shadow-md shadow-black border-5 border-solid border-black p-4 rounded-whoop hover:bg-black hover:text-white lg:w-72'>
                 Check out my Photos
                 <FaImage  className='text-2xl'/>
@@ -152,7 +152,7 @@ function App() {
               </span>
             </div>
             <div className='flex items-center justify-center'>
-              <a href='https://www.instagram.com/stories/_k.atana/' target='_blank' className='text-xl'>Instagram</a>
+              <a href='https://www.instagram.com/_k.atana/' target='_blank' className='text-xl'>Instagram</a>
               <span className='ml-2 mr-2'>/</span>
               <a href='https://www.linkedin.com/in/stephen-katana-b906ba261/' target='_blank' className='text-xl'>LinkedIn</a>
               <span className='ml-2 mr-2'>/</span>
