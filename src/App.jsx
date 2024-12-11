@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import Steve from '../src/assets/katana.jpg'
+import Katana from '../src/assets/steve.jpg'
 import { BsGithub } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaCode } from "react-icons/fa6";
@@ -96,7 +97,7 @@ function App() {
         </div>
         <div className='lg:flex items-center justify-center'>
           <div className='flex items-center justify-center lg:-ml-34 lg:mr-10'>
-            <img src={Steve} alt="Image not found" className='rounded-md w-72 h-72 lg:w-sp lg:h-sp'/>
+            <img src={Katana} alt="Image not found" className='rounded-md w-72 h-72 lg:w-sp lg:h-sp'/>
           </div>
           <div className='lg:ml-52 lg:mt-5'>
             <div className='flex items-center justify-center mt-10'>
