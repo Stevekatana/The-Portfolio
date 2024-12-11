@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import Steve from '../src/assets/katana.jpg'
-import Katana from '../src/assets/steve.jpg'
+import Katana from '../src/assets/Steve.jpg'
 import { BsGithub } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaCode } from "react-icons/fa6";
