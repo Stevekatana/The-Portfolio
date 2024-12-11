@@ -129,11 +129,11 @@ function App() {
                 Check out my Github
                 <BsGithub className='text-2xl'/>
               </a>
-              <button  href=''
+              <a  href='https://www.instagram.com/stories/_k.atana/' target='_blank'
               className=' mt-5 text-xl flex items-center justify-center gap-3 shadow-md shadow-black border-5 border-solid border-black p-4 rounded-whoop hover:bg-black hover:text-white lg:w-72'>
                 Check out my Photos
                 <FaImage  className='text-2xl'/>
-              </button>
+              </a>
             </div>
           </div>
         </div>
