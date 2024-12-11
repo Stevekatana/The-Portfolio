@@ -47,7 +47,7 @@ function App() {
         </div>
         <div className='ml-10 flex-col absolute right-10 top-5 text-right p-2 bg-white'>
           <GiHamburgerMenu onClick={handleDropDown} className='text-3xl text-center ml-20 lg:hidden'/>
-          <ul id='dropDown' className='hidden p-2 mt-5 lg:flex lg:gap-10 lg:-mt-3'>
+          <ul id='dropDown' className='hidden p-2 mt-5 lg:flex lg:items-center lg:gap-10 lg:-mt-3 lg:border-b-white'>
             <li onClick={scrollToHome} className='text-xl hover:cursor-pointer hover:drop-shadow-xl transition-all delay-0 ease-in-out border-b-2 border-b-gray-400 border-b-solid'>
               Home
             </li>
