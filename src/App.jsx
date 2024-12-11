@@ -43,7 +43,7 @@ function App() {
   return (
     <div>
       <section className='flex items-center w-full'>
-        <div className=' flex items-center justify-center p-2 w-52 mt-5 lg:ml-10'>
+        <div onClick={scrollToHome} className=' flex items-center justify-center p-2 w-52 mt-5 lg:ml-10'>
           <h1 className='text-3xl -ml-5 '>STEPKAT</h1>
         </div>
         <div className='ml-10 flex-col absolute right-10 top-5 text-right p-2 bg-white'>
