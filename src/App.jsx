@@ -136,6 +136,13 @@ function App() {
                 Check out my Photos
                 <FaImage  className='text-2xl'/>
               </a>
+              <a  href='https://kenyatripsafaris.com'
+                  target='blank'
+                  className='text-center mt-5 text-xl flex items-center justify-center gap-3 shadow-md shadow-black border-5 border-solid border-black p-4 rounded-whoop hover:bg-black hover:text-white lg:w-72'>
+                KenyaTripSafaris.com
+                <BsGithub className='text-2xl'/>
+              </a>
+
             </div>
           </div>
         </div>
