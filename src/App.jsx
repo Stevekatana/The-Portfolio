@@ -168,7 +168,7 @@ function App() {
               <a href='https://wa.me/254702270333' target='_blank' className='text-xl'>WhatsApp</a>
             </div>
             <div className='text-center mt-5'>
-              <p>&copy; 2024 All rights reserved </p>
+              <p>&copy; 2025 All rights reserved </p>
             </div>
           </div>
         </div>
