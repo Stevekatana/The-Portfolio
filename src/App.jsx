@@ -215,7 +215,7 @@ function App() {
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-10">
                   {[
                     { value: '5+', label: 'Years Experience' },
-                    { value: '50+', label: 'Projects' },
+                    { value: '5', label: 'Projects' },
                     { value: '∞', label: 'Creativity' }
                   ].map((stat, index) => (
                     <div key={index} className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
